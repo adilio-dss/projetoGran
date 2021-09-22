@@ -1,0 +1,88 @@
+.navbar {
+    background: #FFFFFF;
+    grid-area: nav;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    margin: 30px 37px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+}
+
+.nav_icon {
+    display: none;
+    margin-right: 20px;
+}
+
+.nav_icon > i {
+    font-size: 26px;
+    color: #a5aaad;
+}
+
+.navbar__left > i{
+    margin-right: 22px;
+    text-decoration: none;
+    color: #a5aaad;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline;
+}
+
+.navbar__left .active_link {
+    color: #265acc;
+    border-bottom: 3px solid #265acc;
+    padding-bottom: 12px;
+}
+
+.navbar__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.navbar__right > a {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navbar__right__user {
+    margin-left: 30px;
+    margin-right: 9px;
+}
+
+#name {
+    font-size: 14px;
+}
+
+#status {
+    font-size: 11px;
+}
+
+#avatar {
+    margin: 0;
+}
+
+.navbar__right > a > i {
+    color: #a5aaad;
+    font-size: 16px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 2px 2px 5px #d9d9d9, -2px -2px 5px #FFFF;
+    padding: 7px;
+}
+
+@media only screen and (max-width: 978px){
+    .nav_icon {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar__left {
+        display: none;
+    }
+}
