@@ -8,7 +8,7 @@
 
 
 
-###### Após baixar o projeto execute os seguintes comandos dentro da pasta `projeto-gran`:
+###### Após baixar o projeto execute os seguintes comandos dentro da pasta raíz:
 
 1. `yarn install` para instalar as dependências.
 
